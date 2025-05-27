@@ -2,15 +2,12 @@
 
 A smart and interactive **medical chatbot** powered by **Natural Language Processing (NLP)** and **Machine Learning (ML)**. This project simulates a basic medical assistant that provides helpful responses to user queries related to general health, symptoms, and common diseases.
 
-![Skin Rash](./Skin%20Rash.webp)
-![Acne](./acne.webp)
-![Dandruff](./dandruff-optimized.webp)
-
 ---
 
 ## 🧠 Project Overview
 
 The AI-Medical-Chatbot is designed to:
+
 - Respond to general medical questions.
 - Recognize and explain symptoms.
 - Offer potential insights about common health conditions.
@@ -23,7 +20,7 @@ The AI-Medical-Chatbot is designed to:
 ## 🚀 Features
 
 - 🤖 AI-powered symptom interpretation
-- 🎙️ Voice input and output (speech recognition and synthesis)
+- 🎧 Voice input and output (speech recognition and synthesis)
 - 🖼️ Simple web interface using **Gradio**
 - 📂 Clean modular architecture
 - 🧪 Built-in NLP and machine learning capabilities
@@ -63,12 +60,15 @@ AI-Medical-Chatbot/
 ### Prerequisites
 
 Install dependencies:
+
 ```bash
 pip install -r requirements.txt
 ```
-*(Create a `requirements.txt` file if not already present, based on imports.)*
+
+*(Create a **`requirements.txt`** file if not already present, based on imports.)*
 
 Example:
+
 ```bash
 pip install gradio speechrecognition pyttsx3 transformers
 ```
@@ -96,7 +96,7 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ---
 
-## 🙋‍♀️ Author
+## 👷‍♀️ Author
 
 **Saakshi**  
 GitHub: [@28saakshii08](https://github.com/28saakshii08)
