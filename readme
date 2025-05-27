@@ -1,1 +1,117 @@
+# 🩺 AI-Medical-Chatbot
 
+A smart and interactive **medical chatbot** powered by **Natural Language Processing (NLP)** and **Machine Learning (ML)**. This project simulates a basic medical assistant that provides helpful responses to user queries related to general health, symptoms, and common diseases.
+
+![Skin Rash](./Skin%20Rash.webp)
+![Acne](./acne.webp)
+![Dandruff](./dandruff-optimized.webp)
+
+---
+
+## 🧠 Project Overview
+
+The AI-Medical-Chatbot is designed to:
+- Respond to general medical questions.
+- Recognize and explain symptoms.
+- Offer potential insights about common health conditions.
+- Provide a voice-enabled interactive experience.
+
+> **Disclaimer:** This chatbot is for **educational and informational purposes only** and does **not** replace professional medical advice.
+
+---
+
+## 🚀 Features
+
+- 🤖 AI-powered symptom interpretation
+- 🎙️ Voice input and output (speech recognition and synthesis)
+- 🖼️ Simple web interface using **Gradio**
+- 📂 Clean modular architecture
+- 🧪 Built-in NLP and machine learning capabilities
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3.x
+- [Gradio](https://gradio.app/) (UI)
+- SpeechRecognition & Pyttsx3 (Voice)
+- Transformers/NLP Models (e.g., BERT, GPT-style logic)
+- Machine Learning (custom intent classification or question answering)
+- Web scraping (optional for dynamic responses)
+
+---
+
+## 📂 Repository Structure
+
+```
+AI-Medical-Chatbot/
+│
+├── brain_of_the_doctor.py        # Core logic (AI response engine)
+├── voice_of_the_doctor.py        # Text-to-speech component
+├── voice_of_the_patient.py       # Speech-to-text input
+├── gradio_app.py                 # Gradio-based web UI
+├── readme                        # This file
+├── LICENSE                       # MIT License
+├── *.webp                        # Health-related images
+├── AI Doctor 2.0.pdf             # Project report/documentation
+```
+
+---
+
+## ▶️ How to Run
+
+### Prerequisites
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+*(Create a `requirements.txt` file if not already present, based on imports.)*
+
+Example:
+```bash
+pip install gradio speechrecognition pyttsx3 transformers
+```
+
+### Run the Chatbot
+
+```bash
+python gradio_app.py
+```
+
+This will open a Gradio interface in your browser.
+
+---
+
+## 🗣️ Voice Interaction
+
+- Speak to the chatbot using `voice_of_the_patient.py`
+- The chatbot responds vocally using `voice_of_the_doctor.py`
+
+---
+
+## 📃 License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+---
+
+## 🙋‍♀️ Author
+
+**Saakshi**  
+GitHub: [@28saakshii08](https://github.com/28saakshii08)
+
+---
+
+## ⭐️ Star This Repo
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub!
+
+---
+
+## 📌 Future Improvements
+
+- Advanced diagnosis using medical datasets
+- Multilingual support
+- Integration with medical APIs (e.g., WebMD, Infermedica)
+- User history and personalized advice
